@@ -17,19 +17,27 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "LIVRAISON OFFERTE EN FRANCE",
+            "url": ""
+          }
+        },
+        "message_ctxf3N": {
+          "type": "message",
+          "settings": {
+            "text": "OFFRE D'ÉTÉ 2026 | -50% DE RÉDUCTION",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_ctxf3N"
       ],
       "settings": {
         "enable_sticky": false,
         "autoplay": false,
         "cycle_speed": 6,
-        "text_size": "text-xs",
+        "text_size": "text-xxs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#333333",
