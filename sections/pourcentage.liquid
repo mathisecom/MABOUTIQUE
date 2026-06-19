@@ -1,0 +1,437 @@
+<section class="dod-labs-stats dod-labs-stats-{{ section.id }}">
+  <div class="dod-labs-stats__container">
+
+    <div class="dod-labs-stats__intro">
+      <div class="dod-labs-stats__brand">
+        {% if section.settings.show_icon %}
+          <span class="dod-labs-stats__icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 8c1.6 1.6 3.4 1.6 5 0s3.4-1.6 5 0"/>
+              <path d="M7 13c1.6 1.6 3.4 1.6 5 0s3.4-1.6 5 0"/>
+              <path d="M7 18c1.6 1.6 3.4 1.6 5 0s3.4-1.6 5 0"/>
+              <circle cx="6" cy="5" r="1.5"/>
+            </svg>
+          </span>
+        {% endif %}
+
+        <span>{{ section.settings.brand_title }}</span>
+      </div>
+
+      {% if section.settings.note != blank %}
+        <div class="dod-labs-stats__note">
+          {{ section.settings.note }}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="dod-labs-stats__items">
+      {% for block in section.blocks %}
+        <div class="dod-labs-stats__item" {{ block.shopify_attributes }}>
+          <div class="dod-labs-stats__percent">
+            {{ block.settings.percent }}
+          </div>
+
+          <div class="dod-labs-stats__text">
+            {{ block.settings.text }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .dod-labs-stats-{{ section.id }} {
+    width: 100%;
+    background: {{ section.settings.background_color }};
+    color: {{ section.settings.text_color }};
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  .dod-labs-stats-{{ section.id }} .dod-labs-stats__container {
+    max-width: {{ section.settings.max_width }}px;
+    margin: 0 auto;
+    padding-left: {{ section.settings.side_padding }}px;
+    padding-right: {{ section.settings.side_padding }}px;
+    display: grid;
+    grid-template-columns: 1.15fr 3fr;
+    align-items: center;
+    gap: 42px;
+  }
+
+  .dod-labs-stats-{{ section.id }} .dod-labs-stats__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: {{ section.settings.brand_size }}px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: {{ section.settings.heading_color }};
+  }
+
+  .dod-labs-stats-{{ section.id }} .dod-labs-stats__icon {
+    width: 22px;
+    min-width: 22px;
+    height: 22px;
+    display: inline-flex;
+  }
+
+  .dod-labs-stats-{{ section.id }} .dod-labs-stats__icon svg {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: {{ section.settings.heading_color }};
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .dod-labs-stats-{{ section.id }} .dod-labs-stats__note {
+    margin-top: 8px;
+    font-size: {{ section.settings.note_size }}px;
+    line-height: 1.45;
+    color: {{ section.settings.muted_color }};
+    max-width: 310px;
+  }
+
+  .dod-labs-stats-{{ section.id }} .dod-labs-stats__items {
+    display: grid;
+    grid-template-columns: repeat({{ section.blocks.size }}, 1fr);
+    align-items: center;
+  }
+
+  .dod-labs-stats-{{ section.id }} .dod-labs-stats__item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 18px;
+    padding: 0 32px;
+    border-left: 1px solid {{ section.settings.divider_color }};
+  }
+
+  .dod-labs-stats-{{ section.id }} .dod-labs-stats__item:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .dod-labs-stats-{{ section.id }} .dod-labs-stats__percent {
+    font-size: {{ section.settings.percent_size }}px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: {{ section.settings.heading_color }};
+    white-space: nowrap;
+  }
+
+  .dod-labs-stats-{{ section.id }} .dod-labs-stats__text {
+    font-size: {{ section.settings.text_size }}px;
+    line-height: 1.25;
+    color: {{ section.settings.text_color }};
+  }
+
+  @media screen and (max-width: 989px) {
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__container {
+      grid-template-columns: 1fr;
+      gap: 22px;
+    }
+
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__items {
+      grid-template-columns: 1fr;
+      border-top: 1px solid {{ section.settings.divider_color }};
+    }
+
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__item {
+      border-left: none;
+      border-bottom: 1px solid {{ section.settings.divider_color }};
+      padding: 18px 0;
+      grid-template-columns: 76px 1fr;
+      gap: 14px;
+    }
+
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__item:first-child {
+      padding-left: 0;
+    }
+
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__item:last-child {
+      border-bottom: none;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .dod-labs-stats-{{ section.id }} {
+      padding-top: {{ section.settings.mobile_padding_top }}px;
+      padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    }
+
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__container {
+      padding-left: {{ section.settings.mobile_side_padding }}px;
+      padding-right: {{ section.settings.mobile_side_padding }}px;
+      gap: 18px;
+    }
+
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__brand {
+      font-size: {{ section.settings.mobile_brand_size }}px;
+    }
+
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__note {
+      font-size: {{ section.settings.mobile_note_size }}px;
+      max-width: 100%;
+    }
+
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__percent {
+      font-size: {{ section.settings.mobile_percent_size }}px;
+    }
+
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__text {
+      font-size: {{ section.settings.mobile_text_size }}px;
+    }
+
+    .dod-labs-stats-{{ section.id }} .dod-labs-stats__item {
+      grid-template-columns: 62px 1fr;
+      gap: 10px;
+      padding: 16px 0;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Stats clients Labs",
+  "settings": [
+    {
+      "type": "text",
+      "id": "brand_title",
+      "label": "Nom du laboratoire / marque",
+      "default": "DODOIR Labs™"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Afficher l’icône",
+      "default": true
+    },
+    {
+      "type": "textarea",
+      "id": "note",
+      "label": "Note sous le nom",
+      "default": "*Basé sur un test de 1 000 clients non rémunérés ayant utilisé le produit."
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "label": "Largeur maximale",
+      "min": 900,
+      "max": 1600,
+      "step": 20,
+      "default": 1200
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Marge haute ordinateur",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Marge basse ordinateur",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "label": "Marge haute mobile",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "label": "Marge basse mobile",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "side_padding",
+      "label": "Padding gauche/droite ordinateur",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "mobile_side_padding",
+      "label": "Padding gauche/droite mobile",
+      "min": 12,
+      "max": 40,
+      "step": 2,
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "brand_size",
+      "label": "Taille nom marque ordinateur",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "mobile_brand_size",
+      "label": "Taille nom marque mobile",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "note_size",
+      "label": "Taille note ordinateur",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "mobile_note_size",
+      "label": "Taille note mobile",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "percent_size",
+      "label": "Taille pourcentage ordinateur",
+      "min": 34,
+      "max": 86,
+      "step": 2,
+      "default": 58
+    },
+    {
+      "type": "range",
+      "id": "mobile_percent_size",
+      "label": "Taille pourcentage mobile",
+      "min": 28,
+      "max": 58,
+      "step": 2,
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Taille texte ordinateur",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "mobile_text_size",
+      "label": "Taille texte mobile",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Couleur de fond",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Couleur des chiffres et titre",
+      "default": "#062844"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du texte",
+      "default": "#062844"
+    },
+    {
+      "type": "color",
+      "id": "muted_color",
+      "label": "Couleur du petit texte",
+      "default": "#7b8996"
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Couleur des séparateurs",
+      "default": "#d9e2ea"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "stat",
+      "name": "Statistique",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "text",
+          "id": "percent",
+          "label": "Pourcentage",
+          "default": "98%"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Texte",
+          "default": "des clients recommanderaient DODOIR® à leurs proches"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Stats clients Labs",
+      "blocks": [
+        {
+          "type": "stat",
+          "settings": {
+            "percent": "98%",
+            "text": "des clients recommanderaient DODOIR® à leurs proches"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "percent": "92%",
+            "text": "ressentent moins de tensions et un meilleur confort de sommeil"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "percent": "95%",
+            "text": "disent ne plus vouloir revenir à un oreiller classique"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
