@@ -15,24 +15,28 @@
         "image_idQBC7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Men_s_Health.svg",
             "url": ""
           }
         },
         "image_QRxkPL": {
           "type": "image",
           "settings": {
-            "url": ""
-          }
-        },
-        "image_etxnYE": {
-          "type": "image",
-          "settings": {
+            "image": "shopify://shop_images/The_Independent_logo.svg",
             "url": ""
           }
         },
         "image_HRQr3x": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Healthline_logo_svg.avif",
+            "url": ""
+          }
+        },
+        "image_RFU8qk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bodyandsoul.svg",
             "url": ""
           }
         }
@@ -40,8 +44,8 @@
       "block_order": [
         "image_idQBC7",
         "image_QRxkPL",
-        "image_etxnYE",
-        "image_HRQr3x"
+        "image_HRQr3x",
+        "image_RFU8qk"
       ],
       "name": "SS - Scrolling logo cloud #5",
       "settings": {
@@ -54,7 +58,7 @@
         "heading_size_mobile": 18,
         "heading_height": 130,
         "scrolling_velocity": 30,
-        "scrolling_velocity_mobile": 30,
+        "scrolling_velocity_mobile": 14,
         "scrolling_direction": "left",
         "pause_hover": false,
         "scrolling_gap": 70,
