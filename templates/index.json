@@ -106,6 +106,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_pGEXWU": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "description_VCnHiL": {
           "type": "description",
           "settings": {
@@ -171,6 +177,7 @@
         "liquid_fn6HiH",
         "title_EQz4Qg",
         "price_8CLqph",
+        "liquid_pGEXWU",
         "description_VCnHiL",
         "variant_picker_yEK6m4",
         "quantity_selector_t6CW4G",
