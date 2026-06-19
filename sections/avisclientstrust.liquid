@@ -19,6 +19,12 @@
     --ac-card-min-height: {{ section.settings.card_min_height }}px;
     --ac-mobile-card-min-height: {{ section.settings.mobile_card_min_height }}px;
     --ac-lines: {{ section.settings.review_text_lines }};
+    --ac-eyebrow-size: {{ section.settings.eyebrow_size }}px;
+    --ac-mobile-eyebrow-size: {{ section.settings.mobile_eyebrow_size }}px;
+    --ac-heading-size: {{ section.settings.heading_size }}px;
+    --ac-mobile-heading-size: {{ section.settings.mobile_heading_size }}px;
+    --ac-review-title-size: {{ section.settings.review_title_size }}px;
+    --ac-mobile-review-title-size: {{ section.settings.mobile_review_title_size }}px;
   "
 >
   <div class="ac-container">
@@ -144,7 +150,7 @@
 
   #AvisClients-{{ section.id }} .ac-eyebrow {
     margin: 0 0 12px;
-    font-size: 12px;
+    font-size: var(--ac-eyebrow-size);
     line-height: 1.2;
     font-weight: 800;
     letter-spacing: 0.16em;
@@ -154,7 +160,7 @@
 
   #AvisClients-{{ section.id }} .ac-heading {
     margin: 0;
-    font-size: clamp(30px, 3.2vw, 44px);
+    font-size: var(--ac-heading-size);
     line-height: 1.08;
     letter-spacing: -0.035em;
     font-weight: 900;
@@ -274,7 +280,7 @@
   #AvisClients-{{ section.id }} .ac-review-title {
     margin: 0 0 16px;
     color: var(--ac-text);
-    font-size: 20px;
+    font-size: var(--ac-review-title-size);
     line-height: 1.17;
     letter-spacing: -0.025em;
     font-weight: 900;
@@ -445,13 +451,13 @@
     #AvisClients-{{ section.id }} .ac-heading {
       max-width: 360px;
       margin: 0 auto;
-      font-size: clamp(28px, 8vw, 34px);
+      font-size: var(--ac-mobile-heading-size);
       line-height: 1.08;
     }
 
     #AvisClients-{{ section.id }} .ac-eyebrow {
       padding-right: 20px;
-      font-size: 11px;
+      font-size: var(--ac-mobile-eyebrow-size);
       letter-spacing: 0.14em;
     }
 
@@ -507,7 +513,7 @@
     }
 
     #AvisClients-{{ section.id }} .ac-review-title {
-      font-size: 19px;
+      font-size: var(--ac-mobile-review-title-size);
     }
 
     #AvisClients-{{ section.id }} .ac-review-text {
@@ -678,6 +684,66 @@
       "id": "heading",
       "label": "Titre",
       "default": "De vrais avis de vrais clients"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 20,
+      "max": 70,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille du titre sur ordinateur",
+      "default": 44
+    },
+    {
+      "type": "range",
+      "id": "mobile_heading_size",
+      "min": 20,
+      "max": 46,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille du titre sur mobile",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "eyebrow_size",
+      "min": 8,
+      "max": 22,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille du petit texte sur ordinateur",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "mobile_eyebrow_size",
+      "min": 8,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille du petit texte sur mobile",
+      "default": 11
+    },
+    {
+      "type": "range",
+      "id": "review_title_size",
+      "min": 14,
+      "max": 34,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille des titres d’avis sur ordinateur",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "mobile_review_title_size",
+      "min": 14,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille des titres d’avis sur mobile",
+      "default": 19
     },
     {
       "type": "text",
