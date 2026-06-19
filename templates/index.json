@@ -119,6 +119,12 @@
             "manual_deal_block_id": ""
           }
         },
+        "liquid_UpM4EP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "buy_buttons_NmAWhG": {
           "type": "buy_buttons",
           "settings": {
@@ -173,6 +179,7 @@
         "liquid_gx7Xka",
         "liquid_pGEXWU",
         "kaching_bundles_app_block_6Abqrz",
+        "liquid_UpM4EP",
         "buy_buttons_NmAWhG",
         "liquid_CwJxF9",
         "collapsible_text_j3QhwL",
