@@ -305,7 +305,7 @@
         "border_color": "#E6E1DA",
         "accent_color": "#00B67A",
         "max_width": 1120,
-        "padding_top": 64,
+        "padding_top": 32,
         "padding_bottom": 64,
         "card_radius": 16,
         "card_min_height": 350,
