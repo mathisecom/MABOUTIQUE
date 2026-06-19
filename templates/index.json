@@ -97,7 +97,7 @@
         "title_EQz4Qg": {
           "type": "title",
           "settings": {
-            "heading_tag": "h4"
+            "heading_tag": "h3"
           }
         },
         "liquid_pGEXWU": {
@@ -124,10 +124,6 @@
             "variant_image_options": "",
             "size_chart_page": ""
           }
-        },
-        "quantity_selector_t6CW4G": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "buy_buttons_NmAWhG": {
           "type": "buy_buttons",
@@ -183,7 +179,6 @@
         "liquid_pGEXWU",
         "description_VCnHiL",
         "variant_picker_yEK6m4",
-        "quantity_selector_t6CW4G",
         "buy_buttons_NmAWhG",
         "liquid_CwJxF9",
         "collapsible_text_j3QhwL",
