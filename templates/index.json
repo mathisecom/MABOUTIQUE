@@ -94,35 +94,16 @@
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_WBzwJY\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div class=\"product-info__block-item\" data-block-id=\"liquid_Ney4ep\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div class=\"product-info__block-item\" data-block-id=\"liquid_7WeHTt\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <style>\n      #trustscore-container {\n        display: flex;\n        align-items: center;\n        font-family: inherit;\n        font-size: 14px;\n        color: #333;\n        max-width: 100%;\n        line-height: 1;\n        margin-top: 4px;\n      }\n      #trustscore-stars {\n        display: flex;\n        align-items: center;\n        margin-right: 8px;\n      }\n      #trustscore-stars img {\n        max-width: 80px;\n        width: 80px;\n        height: auto;\n        display: block;\n      }\n      #trustscore-text {\n        font-weight: 400;\n        white-space: nowrap;\n      }\n      #trustscore-text .highlight {\n        font-weight: 700;\n      }\n    </style>\n\n    <div id=\"trustscore-container\">\n      <div id=\"trustscore-stars\">\n        <img src=\"https://i.imgur.com/EHjNmTM.png\" alt=\"5 stars\">\n      </div>\n      <div id=\"trustscore-text\">\n        Trustscore <span class=\"highlight\">4,6</span> | +3,000 avis clients\n      </div>\n    </div>\n  </div>\n</div>\n            </div></div>\n            </div></div>"
           }
         },
-        "title_EQz4Qg": {
+        "title_CCqpib": {
           "type": "title",
           "settings": {
-            "heading_tag": "h3"
+            "heading_tag": "h2"
           }
         },
         "liquid_pGEXWU": {
           "type": "liquid",
           "settings": {
             "liquid": "<style>\n  .dod-product-benefits {\n    width: 100%;\n    margin-top: 12px;\n    margin-bottom: 16px;\n    color: #111111;\n    font-size: 12px;\n    line-height: 1.4;\n  }\n\n  .dod-product-benefits__intro {\n    margin-bottom: 14px;\n  }\n\n  .dod-product-benefits__intro p {\n    margin: 0;\n  }\n\n  .dod-product-benefits__intro strong {\n    font-weight: 700;\n  }\n\n  .dod-product-benefits__list {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n  }\n\n  .dod-product-benefits__item {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n  }\n\n  .dod-product-benefits__icon {\n    width: 26px;\n    min-width: 26px;\n    height: 26px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .dod-product-benefits__icon svg {\n    width: 100%;\n    height: 100%;\n    fill: none;\n    stroke: #111111;\n    stroke-width: 3;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n\n  .dod-product-benefits__text {\n    font-size: 14px;\n    line-height: 1.3;\n  }\n\n  @media screen and (max-width: 749px) {\n    .dod-product-benefits {\n      font-size: 14px;\n    }\n\n    .dod-product-benefits__text {\n      font-size: 14px;\n    }\n\n    .dod-product-benefits__icon {\n      width: 24px;\n      min-width: 24px;\n      height: 24px;\n    }\n  }\n</style>\n\n<div class=\"dod-product-benefits\">\n\n  <div class=\"dod-product-benefits__intro\">\n    <p>\n      <strong>{{ product.title }}</strong> <B>Aide à aligner le cou et à soulager les tensions pendant la nuit.</B>\n    </p>\n  </div>\n\n  <div class=\"dod-product-benefits__list\">\n\n    <div class=\"dod-product-benefits__item\">\n      <div class=\"dod-product-benefits__icon\">\n        <svg viewBox=\"0 0 64 64\" aria-hidden=\"true\">\n          <path d=\"M31 6c-8 0-14 6-14 14 0 5 2 9 6 12 3 3 4 7 3 11l-2 9h17l-3-11c-1-4 0-8 3-11 4-3 6-7 6-12 0-8-6-14-16-14z\"/>\n          <path d=\"M16 33c-5 2-9 6-10 12\"/>\n          <path d=\"M48 33c5 2 9 6 10 12\"/>\n          <path d=\"M25 52h14\"/>\n        </svg>\n      </div>\n      <div class=\"dod-product-benefits__text\">\n        Soulage cou, épaules et dos\n      </div>\n    </div>\n\n    <div class=\"dod-product-benefits__item\">\n      <div class=\"dod-product-benefits__icon\">\n        <svg viewBox=\"0 0 64 64\" aria-hidden=\"true\">\n          <path d=\"M32 5v54\"/>\n          <path d=\"M22 10h20\"/>\n          <path d=\"M20 18h24\"/>\n          <path d=\"M22 26h20\"/>\n          <path d=\"M20 34h24\"/>\n          <path d=\"M22 42h20\"/>\n          <path d=\"M20 50h24\"/>\n          <path d=\"M17 16c-5 3-5 9 0 12\"/>\n          <path d=\"M47 16c5 3 5 9 0 12\"/>\n        </svg>\n      </div>\n      <div class=\"dod-product-benefits__text\">\n        Réduit les maux de tête\n      </div>\n    </div>\n\n    <div class=\"dod-product-benefits__item\">\n      <div class=\"dod-product-benefits__icon\">\n        <svg viewBox=\"0 0 64 64\" aria-hidden=\"true\">\n          <circle cx=\"32\" cy=\"32\" r=\"22\"/>\n          <path d=\"M40 15c-10 4-16 13-16 23 0 7 3 13 8 17\"/>\n          <path d=\"M40 25h10l-10 10h10\"/>\n        </svg>\n      </div>\n      <div class=\"dod-product-benefits__text\">\n        Favorise un meilleur sommeil\n      </div>\n    </div>\n\n    <div class=\"dod-product-benefits__item\">\n      <div class=\"dod-product-benefits__icon\">\n        <svg viewBox=\"0 0 64 64\" aria-hidden=\"true\">\n          <path d=\"M35 36V12a7 7 0 0 0-14 0v24a14 14 0 1 0 14 0z\"/>\n          <path d=\"M28 43V20\"/>\n          <path d=\"M46 12v14\"/>\n          <path d=\"M40 19h12\"/>\n        </svg>\n      </div>\n      <div class=\"dod-product-benefits__text\">\n        Frais, hypoallergénique et vegan\n      </div>\n    </div>\n\n  </div>\n</div>"
-          }
-        },
-        "description_VCnHiL": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "variant_picker_yEK6m4": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
           }
         },
         "kaching_bundles_app_block_6Abqrz": {
@@ -182,10 +163,8 @@
       },
       "block_order": [
         "liquid_fn6HiH",
-        "title_EQz4Qg",
+        "title_CCqpib",
         "liquid_pGEXWU",
-        "description_VCnHiL",
-        "variant_picker_yEK6m4",
         "kaching_bundles_app_block_6Abqrz",
         "buy_buttons_NmAWhG",
         "liquid_CwJxF9",
@@ -265,9 +244,9 @@
         "card_width_desktop": 130,
         "card_width_mobile": 100,
         "heading_color": "#121212",
-        "layout_bg_color": "#FFFFFF",
+        "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 0,
