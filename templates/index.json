@@ -205,6 +205,63 @@
         "input_text_color": ""
       }
     },
+    "pourcentage_ryANrp": {
+      "type": "pourcentage",
+      "blocks": {
+        "stat_MN8Cgd": {
+          "type": "stat",
+          "settings": {
+            "percent": "98%",
+            "text": "des clients recommanderaient DODOIR® à leurs proches"
+          }
+        },
+        "stat_bNAaNF": {
+          "type": "stat",
+          "settings": {
+            "percent": "92%",
+            "text": "ressentent moins de tensions et un meilleur confort de sommeil"
+          }
+        },
+        "stat_xUtzA9": {
+          "type": "stat",
+          "settings": {
+            "percent": "95%",
+            "text": "disent ne plus vouloir revenir à un oreiller classique"
+          }
+        }
+      },
+      "block_order": [
+        "stat_MN8Cgd",
+        "stat_bNAaNF",
+        "stat_xUtzA9"
+      ],
+      "name": "Stats clients Labs",
+      "settings": {
+        "brand_title": "DODOIR Labs™",
+        "show_icon": true,
+        "note": "*Basé sur un test de 1 000 clients non rémunérés ayant utilisé le produit.",
+        "max_width": 1200,
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 8,
+        "side_padding": 24,
+        "mobile_side_padding": 24,
+        "brand_size": 17,
+        "mobile_brand_size": 16,
+        "note_size": 13,
+        "mobile_note_size": 12,
+        "percent_size": 58,
+        "mobile_percent_size": 34,
+        "text_size": 17,
+        "mobile_text_size": 14,
+        "background_color": "#ffffff",
+        "heading_color": "#062844",
+        "text_color": "#062844",
+        "muted_color": "#7b8996",
+        "divider_color": "#d9e2ea"
+      }
+    },
     "logoscroll_gwPcmH": {
       "type": "logoscroll",
       "blocks": {
@@ -515,7 +572,7 @@
             "mobile_icon_width": 52,
             "icon_width": 52,
             "icon_background_type": "circle",
-            "icon_background": "#FAFBFC",
+            "icon_background": "#fafbfc",
             "icon_color": "",
             "title": "Free shipping",
             "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
@@ -529,7 +586,7 @@
             "mobile_icon_width": 52,
             "icon_width": 52,
             "icon_background_type": "circle",
-            "icon_background": "#FAFBFC",
+            "icon_background": "#fafbfc",
             "icon_color": "",
             "title": "Customer service",
             "content": "<p>We are available from monday to friday to answer your questions.</p>"
@@ -543,7 +600,7 @@
             "mobile_icon_width": 52,
             "icon_width": 52,
             "icon_background_type": "circle",
-            "icon_background": "#FAFBFC",
+            "icon_background": "#fafbfc",
             "icon_color": "",
             "title": "Secure payment",
             "content": "<p>Your payment information is processed securely.</p>"
@@ -687,6 +744,7 @@
   "order": [
     "logoscroll_jxzzch",
     "featured_product_i3wWzy",
+    "pourcentage_ryANrp",
     "logoscroll_gwPcmH",
     "avisclientstrust_ecHXek",
     "logoscroll_mJ3ijE",
