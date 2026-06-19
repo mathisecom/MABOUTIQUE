@@ -66,9 +66,9 @@
         "card_width_desktop": 130,
         "card_width_mobile": 100,
         "heading_color": "#121212",
-        "layout_bg_color": "#FAFBFC",
+        "layout_bg_color": "#fafbfc",
         "layout_border_color": "#121212",
-        "background_color": "#FAFBFC",
+        "background_color": "#fafbfc",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 0,
@@ -91,7 +91,7 @@
         "title_EQz4Qg": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h3"
           }
         },
         "badges_CRbqX6": {
@@ -140,8 +140,8 @@
         "buy_buttons_NmAWhG": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
@@ -185,8 +185,8 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "",
-        "desktop_media_width": 55,
+        "product": "coussin-ergonomique-dodoir™",
+        "desktop_media_width": 45,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
         "mobile_carousel_control": "thumbnails",
