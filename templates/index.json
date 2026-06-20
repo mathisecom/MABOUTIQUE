@@ -9,6 +9,60 @@
  */
 {
   "sections": {
+    "customheorbanner_XQLhqA": {
+      "type": "customheorbanner",
+      "name": "Bannière personnalisée",
+      "settings": {
+        "image_alt": "Bannière produit",
+        "desktop_image_position": "center center",
+        "mobile_image_position": "center center",
+        "rating_text": "20,000+ sleepers helped",
+        "title": "Wake Up Ready",
+        "text": "<p>We design sleep tools for real recovery, your body just needs the right support.</p>",
+        "button_label": "SHOP NOW",
+        "button_link": "",
+        "content_horizontal_desktop": "left",
+        "content_vertical_desktop": "middle",
+        "text_align_desktop": "left",
+        "content_horizontal_mobile": "center",
+        "content_vertical_mobile": "middle",
+        "text_align_mobile": "center",
+        "height_desktop": 620,
+        "height_mobile": 560,
+        "content_width": 480,
+        "content_width_mobile": 340,
+        "padding_horizontal_desktop": 120,
+        "padding_top_desktop": 60,
+        "padding_bottom_desktop": 60,
+        "padding_horizontal_mobile": 24,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "title_size_desktop": 52,
+        "title_size_mobile": 38,
+        "text_size_desktop": 16,
+        "text_size_mobile": 14,
+        "rating_size_desktop": 14,
+        "rating_size_mobile": 13,
+        "title_weight": "800",
+        "text_weight": "700",
+        "background_color": "#e8ded7",
+        "text_color": "#ffffff",
+        "rating_color": "#ffffff",
+        "stars_color": "#ffd400",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15,
+        "button_background": "#ffffff",
+        "button_text_color": "#333333",
+        "button_text_size": 14,
+        "button_text_weight": "600",
+        "button_padding_vertical": 16,
+        "button_padding_horizontal": 32,
+        "button_radius": 14,
+        "rating_margin_bottom": 18,
+        "title_margin_bottom": 24,
+        "text_margin_bottom": 32
+      }
+    },
     "logoscroll_jxzzch": {
       "type": "logoscroll",
       "blocks": {
@@ -857,6 +911,7 @@
     }
   },
   "order": [
+    "customheorbanner_XQLhqA",
     "logoscroll_jxzzch",
     "featured_product_i3wWzy",
     "pourcentage_ryANrp",
