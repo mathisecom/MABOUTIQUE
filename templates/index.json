@@ -268,24 +268,28 @@
         "image_QqhQ38": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_62.jpg",
             "url": ""
           }
         },
         "image_8PpXUH": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_61.jpg",
             "url": ""
           }
         },
         "image_yX7TtY": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_60.jpg",
             "url": ""
           }
         },
         "image_Uc9NyG": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_59.jpg",
             "url": ""
           }
         }
@@ -313,7 +317,7 @@
         "scrolling_gap": 70,
         "scrolling_gap_mobile": 30,
         "card_width_desktop": 130,
-        "card_width_mobile": 100,
+        "card_width_mobile": 140,
         "heading_color": "#121212",
         "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",
