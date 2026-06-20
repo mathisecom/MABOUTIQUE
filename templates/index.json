@@ -543,6 +543,68 @@
         "lazy": true
       }
     },
+    "multi_column_VRUEkC": {
+      "type": "multi-column",
+      "blocks": {
+        "item_X7yKUU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4_e3bfb5de-1b96-403f-b946-df846e083fe3.webp",
+            "column_size": "3",
+            "title": "Dormeurs sur le Côté",
+            "heading_tag": "h4",
+            "content": "<p>C’est la position adoptée par une grande partie des dormeurs. Grâce aux contours latéraux du <strong>DoDoir</strong>, votre tête reste parfaitement alignée et vos bras trouvent enfin leur place sans créer de tension.<br/><strong>Résultat</strong> : nuque soulagée, épaules détendues, sommeil profond garanti.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KerYp4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5_0ca04e6b-7cfb-429c-8008-e7311eac3a5b.webp",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_6Pnn6E": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/6_40f99dd6-8aa8-4f53-b47a-7d0c8a5d7542.webp",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_X7yKUU",
+        "item_KerYp4",
+        "item_6Pnn6E"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "DoDoir S’adapte à Vous.",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_NDmALC": {
       "type": "media-with-text",
       "blocks": {
@@ -643,10 +705,10 @@
         "text_color": ""
       }
     },
-    "multi_column_VRUEkC": {
+    "multi_column_e8pQHX": {
       "type": "multi-column",
       "blocks": {
-        "item_X7yKUU": {
+        "item_PJWqJ3": {
           "type": "item",
           "settings": {
             "video": "shopify://files/videos/c879b5dfb0724c5d96ff4ba769d89a18.SD-480p-0.9Mbps-65484657.mp4",
@@ -659,7 +721,7 @@
             "link_style": "link"
           }
         },
-        "item_KerYp4": {
+        "item_J8EmyN": {
           "type": "item",
           "settings": {
             "video": "shopify://files/videos/2d7a258ad8a248909243359f99f6f105.SD-480p-0.9Mbps-65484656.mp4",
@@ -672,7 +734,7 @@
             "link_style": "link"
           }
         },
-        "item_6Pnn6E": {
+        "item_3nkq6F": {
           "type": "item",
           "settings": {
             "video": "shopify://files/videos/5ed4450ae1a54d2f889a1308979b1c7f.SD-480p-0.9Mbps-65484655.mp4",
@@ -687,9 +749,9 @@
         }
       },
       "block_order": [
-        "item_X7yKUU",
-        "item_KerYp4",
-        "item_6Pnn6E"
+        "item_PJWqJ3",
+        "item_J8EmyN",
+        "item_3nkq6F"
       ],
       "name": "Multi-column",
       "settings": {
@@ -703,6 +765,42 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "media_with_text_cTfzVm": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_PDryDR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00027_720x_24aec214-df75-492a-9da5-92d89b06a7a4.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Conçu pour différentes positions de sommeil",
+            "content": "<p>DODOIR possède 2 hauteurs de contour différentes de chaque côté, pour s’adapter à votre position de sommeil. Sa forme papillon évite les engourdissements dans les bras et laisse de la place aux épaules.</p><p>Conçu pour offrir un soutien optimal de la tête et réduire les points de pression. Idéal pour dormir sur le dos, sur le côté ou sur le ventre.</p>",
+            "link_text": "OBTENIR MAINTENANT",
+            "link_url": "",
+            "background": "#fafbfc",
+            "background_gradient": "",
+            "text_color": "#333333",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PDryDR"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
       }
     },
     "faq": {
@@ -765,9 +863,11 @@
     "logoscroll_gwPcmH",
     "avisclientstrust_ecHXek",
     "logoscroll_mJ3ijE",
+    "multi_column_VRUEkC",
     "media_with_text_NDmALC",
     "text_with_icons_fRxVF7",
-    "multi_column_VRUEkC",
+    "multi_column_e8pQHX",
+    "media_with_text_cTfzVm",
     "faq"
   ]
 }
