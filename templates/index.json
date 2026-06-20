@@ -292,13 +292,21 @@
             "image": "shopify://shop_images/Design_sans_titre_59.jpg",
             "url": ""
           }
+        },
+        "image_R4pKRf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_63.jpg",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "image_QqhQ38",
         "image_8PpXUH",
         "image_yX7TtY",
-        "image_Uc9NyG"
+        "image_Uc9NyG",
+        "image_R4pKRf"
       ],
       "name": "SS - Scrolling logo cloud #5",
       "settings": {
