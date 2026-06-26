@@ -151,8 +151,15 @@
         },
         "title_GWifa4": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h3"
+          }
+        },
+        "text_HyTVXb": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Ceinture Chauffante Règles - Lenova™</h2>"
           }
         },
         "liquid_gx7Xka": {
@@ -236,6 +243,7 @@
       "block_order": [
         "liquid_fn6HiH",
         "title_GWifa4",
+        "text_HyTVXb",
         "liquid_gx7Xka",
         "liquid_pGEXWU",
         "kaching_bundles_app_block_6Abqrz",
