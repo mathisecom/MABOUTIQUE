@@ -694,8 +694,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Conçu pour différentes positions de sommeil",
-            "content": "<p>DODOIR possède 2 hauteurs de contour différentes de chaque côté, pour s’adapter à votre position de sommeil. Sa forme papillon évite les engourdissements dans les bras et laisse de la place aux épaules.</p>",
+            "title": "Votre solution naturelle contre les douleurs de règles",
+            "content": "<p>La ceinture chauffante Lovena aide à soulager les douleurs menstruelles grâce à sa chaleur apaisante et ses vibrations relaxantes. </p><p>Avec <strong>3 niveaux de température</strong> et <strong>4 modes de massage</strong>, elle cible les crampes et les tensions pour un confort rapide. </p><p>Compacte et portable, elle s’utilise facilement à la maison, au travail ou en déplacement.</p>",
             "link_text": "DÉCOUVRIR",
             "link_url": "#shopify-section-template--28755725091160__featured_product_i3wWzy",
             "background": "#FCF4F4",
@@ -760,7 +760,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/joyaperiods-2.avif",
+            "custom_icon": "shopify://shop_images/Design_sans_titre_35.png",
             "mobile_icon_width": 60,
             "icon_width": 60,
             "icon_background_type": "none",
@@ -774,7 +774,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/joyaperiods-3.avif",
+            "custom_icon": "shopify://shop_images/Design_sans_titre_33.png",
             "mobile_icon_width": 60,
             "icon_width": 60,
             "icon_background_type": "none",
@@ -788,7 +788,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/joyaperiods-1.avif",
+            "custom_icon": "shopify://shop_images/Design_sans_titre_34.png",
             "mobile_icon_width": 60,
             "icon_width": 60,
             "icon_background_type": "none",
