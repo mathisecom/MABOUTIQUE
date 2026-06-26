@@ -664,6 +664,22 @@
         "text_color": ""
       }
     },
+    "scrolling_text_8nwyK8": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 6,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#CE6665",
+        "text_gradient": ""
+      }
+    },
     "media_with_text_NDmALC": {
       "type": "media-with-text",
       "blocks": {
@@ -961,6 +977,7 @@
     "avisclientstrust_ecHXek",
     "logoscroll_mJ3ijE",
     "multi_column_VRUEkC",
+    "scrolling_text_8nwyK8",
     "media_with_text_NDmALC",
     "media_with_text_GT38fL",
     "text_with_icons_fRxVF7",
