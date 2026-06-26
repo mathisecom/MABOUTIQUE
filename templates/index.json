@@ -170,6 +170,7 @@
         },
         "kaching_bundles_app_block_6Abqrz": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "disabled": true,
           "settings": {
             "product": "{{section.settings.product}}",
             "manual_deal_block_id": ""
@@ -291,6 +292,7 @@
         "stat_bNAaNF",
         "stat_xUtzA9"
       ],
+      "disabled": true,
       "name": "Stats clients Labs",
       "settings": {
         "brand_title": "DODOIR Labs™",
@@ -667,7 +669,7 @@
         "image_EwmWMj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC00027_720x_24aec214-df75-492a-9da5-92d89b06a7a4.webp",
+            "image": "shopify://shop_images/ceinture-chauffante-regles-douloureuses5.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -678,11 +680,11 @@
             "content": "<p>DODOIR possède 2 hauteurs de contour différentes de chaque côté, pour s’adapter à votre position de sommeil. Sa forme papillon évite les engourdissements dans les bras et laisse de la place aux épaules.</p><p>Conçu pour offrir un soutien optimal de la tête et réduire les points de pression. Idéal pour dormir sur le dos, sur le côté ou sur le ventre.</p>",
             "link_text": "OBTENIR MAINTENANT",
             "link_url": "#shopify-section-template--28755725091160__featured_product_i3wWzy",
-            "background": "#fafbfc",
+            "background": "#F6F6F6",
             "background_gradient": "",
-            "text_color": "#333333",
+            "text_color": "#313131",
             "text_gradient": "",
-            "button_background": "",
+            "button_background": "#CE6665",
             "button_text_color": ""
           }
         }
