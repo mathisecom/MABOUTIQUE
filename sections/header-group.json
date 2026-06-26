@@ -40,7 +40,7 @@
         "text_size": "text-xxs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#E19897",
+        "background": "#e19897",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -50,6 +50,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
+        "logo": "shopify://shop_images/Lenova.png",
         "logo_max_width": 120,
         "logo_mobile_max_width": 120,
         "menu": "main-menu",
