@@ -212,7 +212,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Comment ça marche ?",
+            "title": "Comment ça Marche ?",
             "content": "<p><strong>Une chaleur ciblée pour soulager les douleurs</strong></p><p>La ceinture chauffante diffuse une chaleur douce sur le bas-ventre et la taille pour aider à détendre les muscles et apaiser les crampes.</p><p>Grâce à ses <strong>3 niveaux d’intensité</strong>, vous choisissez la chaleur idéale selon vos besoins : confort léger ou soulagement plus intense.</p>",
             "page": ""
           }
@@ -232,7 +232,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Précautions d’usage",
+            "title": "Précautions D’usage",
             "content": "<p><strong>Précautions d’utilisation</strong></p><p>La ceinture chauffante est simple à utiliser, mais quelques précautions sont à respecter :</p><p>Ne pas utiliser en dormant, sur une peau irritée ou abîmée, chez la femme enceinte, ni en complément d’une autre source de chaleur.</p>",
             "page": ""
           }
