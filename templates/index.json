@@ -515,7 +515,7 @@
         "mobile_eyebrow_size": 11,
         "review_title_size": 20,
         "mobile_review_title_size": 19,
-        "badge_brand": "DODOIR",
+        "badge_brand": "LENOVA",
         "rating_label": "Excellent",
         "rating_score": "4,8 sur 5",
         "review_platform": "Trustpilot",
@@ -680,7 +680,7 @@
       "name": "Scrolling text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
+        "text": "Adieu Les Règles Douloureuses.",
         "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
