@@ -670,6 +670,41 @@
         "image_EwmWMj": {
           "type": "image",
           "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Conçu pour différentes positions de sommeil",
+            "content": "<p>DODOIR possède 2 hauteurs de contour différentes de chaque côté, pour s’adapter à votre position de sommeil. Sa forme papillon évite les engourdissements dans les bras et laisse de la place aux épaules.</p>",
+            "link_text": "DÉCOUVRIR",
+            "link_url": "#shopify-section-template--28755725091160__featured_product_i3wWzy",
+            "background": "#FCF4F4",
+            "background_gradient": "",
+            "text_color": "#313131",
+            "text_gradient": "",
+            "button_background": "#CE6665",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EwmWMj"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "media_with_text_GT38fL": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bwL7gr": {
+          "type": "image",
+          "settings": {
             "image": "shopify://shop_images/ceinture-chauffante-regles-douloureuses5.webp",
             "media_width": 50,
             "media_position": "start",
@@ -691,7 +726,7 @@
         }
       },
       "block_order": [
-        "image_EwmWMj"
+        "image_bwL7gr"
       ],
       "name": "Media with text",
       "settings": {
@@ -927,6 +962,7 @@
     "logoscroll_mJ3ijE",
     "multi_column_VRUEkC",
     "media_with_text_NDmALC",
+    "media_with_text_GT38fL",
     "text_with_icons_fRxVF7",
     "multi_column_e8pQHX",
     "media_with_text_cTfzVm",
