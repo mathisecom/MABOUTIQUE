@@ -164,6 +164,12 @@
             "text": "<h2>Ceinture Chauffante Règles - Lenova™</h2>"
           }
         },
+        "price_b39ErA": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
         "text_aT6nHE": {
           "type": "text",
           "settings": {
@@ -250,6 +256,7 @@
         "liquid_fn6HiH",
         "title_GWifa4",
         "text_HyTVXb",
+        "price_b39ErA",
         "text_aT6nHE",
         "liquid_gx7Xka",
         "liquid_pGEXWU",
