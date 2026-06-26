@@ -66,9 +66,9 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "",
+        "background": "#FFFDFD",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#313131"
       }
     },
     "footer": {
