@@ -688,6 +688,7 @@
         "image_EwmWMj": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/pexels-sora-shimazaki-5938354-667x1000.jpg_1.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
