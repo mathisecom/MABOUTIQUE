@@ -781,8 +781,8 @@
             "icon_background_type": "none",
             "icon_background": "#fafbfc",
             "icon_color": "",
-            "title": "Des Nuits plus Paisibles",
-            "content": "<p>Répartit la pression, détend les muscles et facilite l’endormissement.</p>"
+            "title": "2. Choisissez le massage",
+            "content": "<p>Sélectionnez l’un des <strong>4 modes de vibration</strong> pour détendre les muscles et aider à apaiser les crampes.</p>"
           }
         },
         "item_pCg6wc": {
@@ -795,8 +795,8 @@
             "icon_background_type": "none",
             "icon_background": "#fafbfc",
             "icon_color": "",
-            "title": "Soulage les Épaules",
-            "content": "<p>Épouse les épaules sur le côté pour un maintien confortable.</p>"
+            "title": "3. Profitez du confort",
+            "content": "<p>Laissez agir la chaleur et les vibrations pendant <strong>30 minutes</strong> pour un moment de soulagement et de détente.</p>"
           }
         }
       },
