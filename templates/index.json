@@ -337,26 +337,27 @@
         "image_QqhQ38": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_62.jpg",
+            "image": "shopify://shop_images/7083c029-fb20-4579-9e61-89d10ffdfc11.png",
             "url": ""
           }
         },
         "image_8PpXUH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_61.jpg",
+            "image": "shopify://shop_images/f968afb6-b6ed-42f7-9e75-e8876962f28f.png",
             "url": ""
           }
         },
         "image_yX7TtY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_60.jpg",
+            "image": "shopify://shop_images/50dc33b5-7fe0-4529-bc61-213330c6abff.png",
             "url": ""
           }
         },
         "image_Uc9NyG": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Design_sans_titre_59.jpg",
             "url": ""
@@ -364,6 +365,7 @@
         },
         "image_R4pKRf": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Design_sans_titre_63.jpg",
             "url": ""
