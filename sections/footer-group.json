@@ -96,8 +96,8 @@
           "type": "text",
           "settings": {
             "title": "Contactez-Nous",
-            "content": "<p>contact@dodoir.com</p>",
-            "enable_follow_on_shop": true
+            "content": "<p>contact@lenova.com</p>",
+            "enable_follow_on_shop": false
           }
         }
       },
