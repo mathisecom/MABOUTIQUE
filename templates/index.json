@@ -456,8 +456,8 @@
           "settings": {
             "rating": 5,
             "title": "J’adore mon achat",
-            "text": "Après plusieurs commandes ailleurs, c’est clairement l’un des meilleurs achats que j’ai faits. Le rapport qualité-prix est excellent et le résultat est vraiment propre.",
-            "name": "Cherith",
+            "text": "Parfaite pour les règles douloureuses. Je peux l’utiliser au lit, au bureau ou en déplacement.",
+            "name": "Chelly",
             "date": "14 avril 2026",
             "initials": "C"
           }
@@ -466,33 +466,11 @@
           "type": "review",
           "settings": {
             "rating": 5,
-            "title": "Très satisfait de ma commande",
-            "text": "Très content de mon achat. La qualité est au rendez-vous, la taille correspond bien et le rendu final est exactement comme sur les photos.",
+            "title": "Très satisfaite de ma commande",
+            "text": "Très bon produit, simple à utiliser et vraiment apaisant. Je recommande sans hésiter.",
             "name": "Suzanne",
             "date": "27 mars 2026",
             "initials": "S"
-          }
-        },
-        "review_WfN9MU": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "title": "Service client au top",
-            "text": "Service client rapide, gentil et efficace. J’avais une question avant de commander et j’ai reçu une réponse claire très rapidement. L’expérience est vraiment rassurante.",
-            "name": "Katie Glover",
-            "date": "28 janvier 2026",
-            "initials": "K"
-          }
-        },
-        "review_YmgxE6": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "title": "J’étais un peu sceptique…",
-            "text": "Je ne savais pas trop à quoi m’attendre au départ, mais au final je suis super content. La qualité est là, le rendu est propre et je n’utiliserai plus d’autre boutique pour ce type de produit.",
-            "name": "Eva",
-            "date": "16 janvier 2026",
-            "initials": "E"
           }
         }
       },
@@ -501,9 +479,7 @@
         "review_Npxrxt",
         "review_k4HLpt",
         "review_w88HR4",
-        "review_39zCKF",
-        "review_WfN9MU",
-        "review_YmgxE6"
+        "review_39zCKF"
       ],
       "name": "Avis clients carousel",
       "settings": {
