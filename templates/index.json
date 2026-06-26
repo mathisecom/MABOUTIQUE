@@ -53,7 +53,7 @@
         "stars_color": "#ffd400",
         "overlay_color": "#000000",
         "overlay_opacity": 45,
-        "button_background": "#FAFBFC",
+        "button_background": "#fafbfc",
         "button_text_color": "#062844",
         "button_text_size": 14,
         "button_text_weight": "600",
@@ -245,7 +245,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "coussin-ergonomique-dodoir™",
+        "product": "ceinture-chauffante-regles",
         "desktop_media_width": 45,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
