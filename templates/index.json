@@ -740,7 +740,7 @@
             "background_gradient": "",
             "text_color": "#313131",
             "text_gradient": "",
-            "button_background": "#ce6665",
+            "button_background": "#313131",
             "button_text_color": ""
           }
         }
@@ -840,7 +840,7 @@
             "background_gradient": "",
             "text_color": "#313131",
             "text_gradient": "",
-            "button_background": "#ce6665",
+            "button_background": "#313131",
             "button_text_color": ""
           }
         }
