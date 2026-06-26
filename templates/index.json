@@ -762,13 +762,13 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify://shop_images/Design_sans_titre_35.png",
-            "mobile_icon_width": 60,
-            "icon_width": 60,
+            "mobile_icon_width": 84,
+            "icon_width": 84,
             "icon_background_type": "none",
             "icon_background": "#fafbfc",
             "icon_color": "",
-            "title": "Soulage le Cou et le Dos",
-            "content": "<p>Aide le cou à retrouver sa courbure naturelle et favorise un meilleur alignement.</p>"
+            "title": "1. Installez la ceinture",
+            "content": "<p>Placez la ceinture Lenova autour de votre taille, bien centrée sur le bas-ventre. Allumez-la puis choisissez l’un des <strong>3 niveaux de chaleur</strong> : 50°C, 55°C ou 60°C.</p>"
           }
         },
         "item_rWG7bX": {
@@ -776,8 +776,8 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify://shop_images/Design_sans_titre_33.png",
-            "mobile_icon_width": 60,
-            "icon_width": 60,
+            "mobile_icon_width": 84,
+            "icon_width": 84,
             "icon_background_type": "none",
             "icon_background": "#fafbfc",
             "icon_color": "",
@@ -790,8 +790,8 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify://shop_images/Design_sans_titre_34.png",
-            "mobile_icon_width": 60,
-            "icon_width": 60,
+            "mobile_icon_width": 84,
+            "icon_width": 84,
             "icon_background_type": "none",
             "icon_background": "#fafbfc",
             "icon_color": "",
