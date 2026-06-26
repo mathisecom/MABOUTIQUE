@@ -209,12 +209,11 @@
         },
         "collapsible_text_j3QhwL": {
           "type": "collapsible_text",
-          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Matériaux & Dimensions",
-            "content": "<p>L’Oreiller DODOIR est conçu avec une mousse à mémoire de forme de haute qualité, sans produits chimiques nocifs. Hypoallergénique et durable, il assure un environnement de sommeil sain tout en maintenant son confort et son soutien au fil du temps.</p><p>Avec des dimensions de <strong>60 cm de largeur, 40 cm de longueur et 14 cm de hauteur</strong>, il est parfaitement adapté pour offrir un soutien optimal à toutes les morphologies. Profitez d’un oreiller qui allie sécurité, longévité et bien-être pour un sommeil réparateur chaque nuit.</p><p>L’Oreiller <strong>SOYA 2.0 est enveloppé d’une housse amovible</strong>, en tissu respirant, doux et hypoallergénique.</p><p><strong>Instructions de lavage :</strong></p><p>• Déhoussez l’oreiller avec précaution</p><p>• Lavez la housse en machine à <strong>30°C</strong>, en sélectionnant le <strong>programme “lavage délicat” ou “lavage à la main”</strong></p><p>• <strong>Ne pas essorer (évitez la centrifugeuse)</strong></p><p>• Laissez sécher <strong>à l’air libre</strong></p><p>• Une fois sèche, <strong>repassez-la légèrement</strong> pour un rendu doux et net</p><p>Ces précautions permettent de préserver la qualité et la longévité de la housse.</p><p>Livraison gratuite pour toutes les commandes.</p><p>Veuillez prévoir les délais de livraison suivants :</p><ul><li><strong>Temps de traitement :</strong> 1 à 2 jours</li><li><strong>Livraison standard :</strong> 3 à 5 jours</li></ul><p>Essayez votre oreiller Soya pendant 30 jours. Si vous n’êtes pas entièrement satisfait, vous pouvez le retourner dans ce délai pour un remboursement complet.<br/><br/><strong>Note</strong> : Une fois reçu, laissez votre oreiller à l’air libre quelques minutes afin qu’il retrouve sa forme d’origine après avoir été compressé pour l’expédition.</p><p>Nous sommes convaincus que vous allez adorer notre Oreiller Orthopédique Soya, mais nous comprenons que vous ne puissiez pas en être sûr maintenant. C'est pourquoi nous vous offrons une période d'essai de 30 nuits. Vous pouvez essayer, ressentir et constater par vous-même la qualité exceptionnelle de l'Oreiller Soya, sans aucun souci.<br/>Si, après 30 jours, vous n'êtes pas satisfait de votre oreiller Soya, renvoyez-le-nous pour un remboursement complet.</p>",
+            "title": "Comment ça marche ?",
+            "content": "<p><strong>Une chaleur ciblée pour soulager les douleurs</strong></p><p>La ceinture chauffante diffuse une chaleur douce sur le bas-ventre et la taille pour aider à détendre les muscles et apaiser les crampes.</p><p>Grâce à ses <strong>3 niveaux d’intensité</strong>, vous choisissez la chaleur idéale selon vos besoins : confort léger ou soulagement plus intense.</p>",
             "page": ""
           }
         },
@@ -230,12 +229,11 @@
         },
         "collapsible_text_aHKb8i": {
           "type": "collapsible_text",
-          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Garantie 30 Nuits",
-            "content": "<p>Nous sommes convaincus que vous allez adorer notre Oreiller Orthopédique DODOIR, mais nous comprenons que vous ne puissiez pas en être sûr maintenant. C'est pourquoi nous vous offrons une période d'essai de 30 nuits. </p><p>Vous pouvez essayer, ressentir et constater par vous-même la qualité exceptionnelle de l'Oreiller DODOIR, sans aucun souci.</p><p>Si, après 30 jours, vous n'êtes pas satisfait de votre oreiller DODOIR, renvoyez-le-nous pour un remboursement complet.</p>",
+            "title": "Précautions d’usage",
+            "content": "<p><strong>Précautions d’utilisation</strong></p><p>La ceinture chauffante est simple à utiliser, mais quelques précautions sont à respecter :</p><p>Ne pas utiliser en dormant, sur une peau irritée ou abîmée, chez la femme enceinte, ni en complément d’une autre source de chaleur.</p>",
             "page": ""
           }
         }
