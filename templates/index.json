@@ -164,6 +164,12 @@
             "text": "<h2>Ceinture Chauffante Règles - Lenova™</h2>"
           }
         },
+        "text_aT6nHE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Votre nouveau rituel bien-être :</strong></p><p>🌡️ Soulagez vos <strong>douleurs de règles </strong>naturellement en 10 min.</p><p>💕 À utiliser à la maison, au travail ou en déplacement</p><p>🔥 Une chaleur sur-mesure avec <strong>3 intensités</strong> au choix</p>"
+          }
+        },
         "liquid_gx7Xka": {
           "type": "liquid",
           "disabled": true,
@@ -244,6 +250,7 @@
         "liquid_fn6HiH",
         "title_GWifa4",
         "text_HyTVXb",
+        "text_aT6nHE",
         "liquid_gx7Xka",
         "liquid_pGEXWU",
         "kaching_bundles_app_block_6Abqrz",
