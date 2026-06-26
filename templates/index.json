@@ -13,6 +13,7 @@
       "type": "customheorbanner",
       "name": "Bannière personnalisée",
       "settings": {
+        "image_mobile": "shopify://shop_images/ChatGPT_Image_26_juin_2026_17_40_55.png",
         "image_alt": "Bannière produit",
         "desktop_image_position": "center center",
         "mobile_image_position": "center center",
