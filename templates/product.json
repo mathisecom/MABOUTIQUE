@@ -43,6 +43,12 @@
             "text": "<p><strong>Votre nouveau rituel bien-être :</strong></p><p>Soulagez vos <strong>douleurs de règles </strong>naturellement en 10 min.</p><p>À utiliser à la maison, au travail ou en déplacement</p><p>Une chaleur sur-mesure avec <strong>3 intensités</strong> au choix</p>"
           }
         },
+        "liquid_MxqYjN": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -97,6 +103,7 @@
         "liquid_i8HqAP",
         "price",
         "text_qdYk7c",
+        "liquid_MxqYjN",
         "buy_buttons",
         "liquid_8Rm6Tj",
         "collapsible_text_aKih7j",
