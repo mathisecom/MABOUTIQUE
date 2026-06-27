@@ -397,6 +397,41 @@
         "alternate_media_position": false,
         "spacing": "small"
       }
+    },
+    "media_with_text_bgHMKa": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Cjmt9m": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Dites adieu aux règles douloureuses",
+            "content": "<p>La ceinture chauffante <strong>Lenova </strong>aide à apaiser les douleurs menstruelles grâce à une chaleur douce et relaxante. </p><p><strong>Profitez d’un soulagement naturel</strong> et d’un confort optimal tout au long de votre cycle.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#FAF9F9",
+            "background_gradient": "",
+            "text_color": "#313131",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Cjmt9m"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
     }
   },
   "order": [
@@ -405,6 +440,7 @@
     "avisclientstrust_ifKcNK",
     "scrolling_text_qjz9yF",
     "media_with_text_MFPtdq",
-    "media_with_text_7nXdRJ"
+    "media_with_text_7nXdRJ",
+    "media_with_text_bgHMKa"
   ]
 }
