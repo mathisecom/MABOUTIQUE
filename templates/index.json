@@ -18,7 +18,7 @@
         "image_alt": "Bannière produit",
         "desktop_image_position": "center center",
         "mobile_image_position": "center center",
-        "rating_text": "+20,000 Clients Satisfaits",
+        "rating_text": "+1000 Clients Satisfaits",
         "title": "Soulagement en 10 min",
         "text": "<p>Soulagez vos <strong>douleurs de règles </strong>naturellement en 10 min.</p>",
         "button_label": "OBTENIR MAINTENANT",
@@ -499,7 +499,7 @@
       ],
       "name": "Avis clients carousel",
       "settings": {
-        "eyebrow": "APPROUVÉ PAR 20 000+ CLIENTS",
+        "eyebrow": "APPROUVÉ PAR +1000 CLIENTS",
         "heading": "De vrais avis de vrais clients",
         "heading_size": 33,
         "mobile_heading_size": 25,
