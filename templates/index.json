@@ -691,7 +691,7 @@
           "settings": {
             "image": "shopify://shop_images/pexels-sora-shimazaki-5938354-667x1000.jpg_1.webp",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
@@ -827,7 +827,7 @@
           "settings": {
             "image": "shopify://shop_images/5e2bd594-34db-4162-af39-2c663606f3e6.png",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
