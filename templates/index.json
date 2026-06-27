@@ -1082,9 +1082,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Julia S.",
+            "title": "Une qualité incroyable",
+            "content": "<p>Super pratique, la chaleur soulage rapidement mes douleurs. Je l’utilise à chaque cycle.</p>"
           }
         },
         "testimonial_hHH6Dk": {
@@ -1094,8 +1094,8 @@
             "show_rating": true,
             "rating": 5,
             "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Je recommande à 100%",
+            "content": "<p>Très agréable à porter, légère et efficace. Les vibrations font vraiment du bien.</p>"
           }
         },
         "testimonial_nbeFjy": {
@@ -1104,9 +1104,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Léa T.",
+            "title": "Super confortable et qualitatif",
+            "content": "<p>Je ne pensais pas que ça marcherait aussi bien. Soulagement rapide dès les premières minutes.</p>"
           }
         }
       },
