@@ -166,6 +166,7 @@
         },
         "price_b39ErA": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
@@ -192,7 +193,6 @@
         },
         "kaching_bundles_app_block_6Abqrz": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "disabled": true,
           "settings": {
             "product": "{{section.settings.product}}",
             "manual_deal_block_id": ""
