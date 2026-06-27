@@ -404,6 +404,7 @@
         "image_Cjmt9m": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/5e2bd594-34db-4162-af39-2c663606f3e6.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
