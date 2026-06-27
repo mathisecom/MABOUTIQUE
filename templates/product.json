@@ -128,6 +128,82 @@
         "input_text_color": ""
       }
     },
+    "logoscroll_bEHtcB": {
+      "type": "logoscroll",
+      "blocks": {
+        "image_LjUUkt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7083c029-fb20-4579-9e61-89d10ffdfc11.png",
+            "url": ""
+          }
+        },
+        "image_JndMrB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/f968afb6-b6ed-42f7-9e75-e8876962f28f.png",
+            "url": ""
+          }
+        },
+        "image_8tgMY3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/50dc33b5-7fe0-4529-bc61-213330c6abff.png",
+            "url": ""
+          }
+        },
+        "image_MFexPH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_26_juin_2026_17_02_30.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_LjUUkt",
+        "image_JndMrB",
+        "image_8tgMY3",
+        "image_MFexPH"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 30,
+        "scrolling_velocity_mobile": 30,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 70,
+        "scrolling_gap_mobile": 30,
+        "card_width_desktop": 130,
+        "card_width_mobile": 100,
+        "heading_color": "#121212",
+        "layout_bg_color": "#FFFFFF",
+        "layout_border_color": "#121212",
+        "background_color": "#FFFFFF",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "avisclientstrust_ifKcNK": {
       "type": "avisclientstrust",
       "blocks": {
@@ -251,6 +327,7 @@
   },
   "order": [
     "main",
+    "logoscroll_bEHtcB",
     "avisclientstrust_ifKcNK"
   ]
 }
