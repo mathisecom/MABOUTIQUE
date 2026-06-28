@@ -11,101 +11,8 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "text-with-icons": {
-      "type": "text-with-icons",
-      "blocks": {
-        "free-shipping": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-box",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Livraison Offerte",
-            "content": ""
-          }
-        },
-        "customer-support": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-return",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Garantie 30 Jours",
-            "content": ""
-          }
-        },
-        "discount": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Paiement Sécurisés",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "free-shipping",
-        "customer-support",
-        "discount"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "small",
-        "background": "#fffdfd",
-        "background_gradient": "",
-        "text_color": "#313131"
-      }
-    },
     "footer": {
       "type": "footer",
-      "blocks": {
-        "newsletter": {
-          "type": "newsletter",
-          "settings": {
-            "image": "shopify://shop_images/Lenova_1.png",
-            "image_width": 150,
-            "heading_size": "h4",
-            "title": "Newsletters",
-            "content": ""
-          }
-        },
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": true,
-            "menu_title": "Informations Légales"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "Contactez-Nous",
-            "content": "<p>contact@lenova.be</p><p></p>",
-            "enable_follow_on_shop": false
-          }
-        }
-      },
-      "block_order": [
-        "newsletter",
-        "links",
-        "text"
-      ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
@@ -118,7 +25,6 @@
     }
   },
   "order": [
-    "text-with-icons",
     "footer"
   ]
 }
