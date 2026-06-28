@@ -96,7 +96,7 @@
           "type": "text",
           "settings": {
             "title": "Contactez-Nous",
-            "content": "<p>contact@lenova.com</p>",
+            "content": "<p>contact@lenova.be</p><p></p>",
             "enable_follow_on_shop": false
           }
         }
